@@ -1,0 +1,290 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* global styles */
+img{
+    max-width: 100%;
+    height: auto;   
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 0 20%;
+}
+
+button{
+    background-color:#000000; 
+    border: solid 0.5px #99d9ff;
+    border-radius: 3px;
+    color: white;
+    font-size: 1em;  
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+button:hover{
+    transition: .3s ease;
+    background-color: tomato;
+}
+
+/* end of global styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .navbarNav ul{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: coral;
+    flex: 1;
+}
+.navbar-brand span{
+    color: coral;
+}
+
+.banner{
+    background-color: #ffddcc;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.banner-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 3rem;
+} 
+.about{
+    padding: 4% 10% 4%;
+    line-height: 1.8rem;
+}
+
+.about .fa-user{
+    /* border-radius: 50%;
+    border: black solid 1px; */
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.categories{
+    background-color: #99d9ff;
+}
+
+.custom-row .col-md-6, .col-md-4{
+    padding: 0;
+}
+
+.categories p{
+    padding: 1rem;
+    font-size: 0.85rem;
+}
+.categories h3{
+    font-size: 1.2rem;
+}
+
+/* 
+contact */
+.mycontacts{
+    background-color: #99d9ff;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 8%;
+}
+
+.cf1{
+    flex: 1;
+    padding: 2rem;
+}
+
+.cf2{
+    flex: 3;
+    width: 60%;
+    display: flex;
+}
+
+.cf2 input, .cf2 textarea{
+    padding: .6rem;
+    margin: 0.5rem 0.3rem;
+    display: flex;
+}
+
+.cf2 input[type=text]{
+    width: 110%;
+    flex-wrap: wrap;
+}
+
+
+/* .contact-form input{
+    padding: 0.9rem;
+} */
+
+/* .contact-form input .mail{
+    padding-right: 0.9rem;
+} */
+/* PORTFOLIO */
+
+.portfolio-banner{
+background-color: white;
+height: 300px;
+width: 100%;
+position: relative;
+}
+
+.logo-ex{
+    text-align: center;
+}
+
+/* portfolionav */
+
+.portfolio-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 127, 80, 0.082);
+    /* border-radius: 1%;
+    border: solid coral;
+    border-width: 1px; */
+    padding: 5px 36px;
+}
+
+.portfolio-nav li{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    /* border-left: solid rgba(255, 127, 80, 0.342);
+    border-right: solid rgba(255, 127, 80, 0.342);
+    border-width: 1px; */
+}
+
+.portfolio-nav a{
+    text-decoration:none;
+    color: black;
+}
+
+.portfolio-nav li:hover{
+    padding: 15px;
+    background-color: coral;
+}
+
+.portfolio-images{
+    position: relative;
+}
+
+.specific-images{
+    display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: white;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay-text{
+    color: black;
+  font-size: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(24, 23, 23);
+}
+
+.footer-bottom{
+    background-color:coral ;
+    padding: 0.6rem 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-content, .socials ul, a{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(190, 190, 190);
+
+}
+
+footer h3{
+    font-size: 1.25rem;
+}
+
+.gti, .quick-links, .footerform{
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    
+}
+
+.gti a, .quick-links a, .footerform a{
+    color: rgb(190, 190, 190);
+    line-height: 26px;
+}
+
+.socials ul{
+    justify-content: space-between;
+    width: 80%;   
+}
+
+
+.socials i{
+    border: rgb(190, 190, 190) 1px solid ;
+    border-radius: 50%;
+    padding: 10px;
+    height: 2.3rem;
+    width: 2.3rem;
+    text-align: center;  
+}
+
+.socials i:hover{
+    border:coral 1px solid ;
+}
+
+
+.gti ul, .quick-links ul{
+    list-style-type: square;
+}
