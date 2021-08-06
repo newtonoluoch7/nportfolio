@@ -3,7 +3,7 @@
     <!-- banner -->
 <div class="banner">
   <div class="banner-text">
-    <h1> NEWTON VISUAL CREATIVE</h1>
+    <h1> NEWTOM VISUAL CREATIVE</h1>
     <p class="pt-2">GRAPHICS DESIGN | VIDEO DESIGN | WEB DESIGN</p>
     <button class="pt-1">REQUEST QUOTE</button>
   </div>
